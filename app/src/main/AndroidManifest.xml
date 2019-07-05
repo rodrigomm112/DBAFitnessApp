@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TemporizadorActivity"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".TemporizadorActivity" />
         <activity android:name=".comidasActivity" />
         <activity android:name=".PrincipiosWeiderActivity" />
         <activity android:name=".RutinaActivity" />

@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     private Button button2;
     private Button button3;
     private Button button4;
-
+    private Button button5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,7 @@ public class MainActivity extends Activity {
         button2=findViewById(R.id.button2);
         button3=findViewById(R.id.button3);
         button4=findViewById(R.id.button4);
+        button5=findViewById(R.id.button5);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +56,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PrincipiosWeiderActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ChatActivity.class);
                 startActivity(intent);
             }
         });
