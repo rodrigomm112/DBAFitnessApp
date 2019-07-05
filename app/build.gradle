@@ -39,6 +39,7 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui:0.6.2'
     implementation 'com.github.hani-momanii:SuperNova-Emoji:1.0'
     implementation 'com.github.lguipeng:BubbleView:1.0.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -91,6 +91,7 @@ public class ChatActivity extends AppCompatActivity {
         emojIconActions = new EmojIconActions(getApplicationContext(), activity_chat, emojiButton, emojiconEditText);
         emojIconActions.ShowEmojicon();
 
+
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
