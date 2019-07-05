@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".RutinaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/gradiant_fondostart"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/nombreNota"
+            android:hint="Nombre de la nota"
+            android:inputType="text"
+            android:textColor="@color/negro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="4.5"
+        android:background="@drawable/gradiant_fondostart"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/blocnotas"
+            android:hint="Ingrese notas de rutinas"
+            android:gravity="top|start"
+            android:layout_gravity="top|start"
+            android:textColor="@color/negro"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gradiant_fondostart"
+        android:layout_weight="3.5"
+        android:padding="16dp">
+
+        <ListView
+            android:id="@+id/lv_Rutinas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

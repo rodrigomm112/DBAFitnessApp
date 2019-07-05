@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DBAFitnessApp</string>
+    <string name="usernameReg">Nombre de Usuario</string>
+    <string name="emailReg">Email</string>
+    <string name="passwordReg">Password</string>
+    <string name="sign_upReg">Login</string>
+    <string name="invitado">Entrar como Invitado</string>
+    <string name="registro">Registrarse</string>
+    <string name="sign_inLog">Iniciar Sesión</string>
+    <string name="facebookbtn">Iniciar Sesion con Facebook</string>
+    <string name="googlebtn">Iniciar Sesion con Google</string>
+    <string name="signin_redirect">¿Ya tienes una cuenta? Inicia Sesion!</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="signup_redirect">¿Aun no tienes una cuenta? Registrate aqui!</string>
+    <string name="titulorutina">Rutinas/Entrenamiento</string>
+    <string name="titulodieta">Comidas/Dieta</string>
+    <string name="PRINCIPIO_DE_PIRÁMIDE">Todos sabemos que el trabajo con grandes cargas es muy beneficioso para la fuerza y el crecimiento, pero hemos de tener cuidado con las lesiones, este método soluciona este problema, nos permite trabajar con grandes cargas pero realizando unas series previas para que los músculos vayan preparadose para esas repeticiones máximas.</string>
+    <string name="PRINCIPIO_DE_RUTINA_DIVIDIDA">Hace referencia a dividir el cuerpo en dos partes, tronco y brazos por un lado y piernas por otro lado, y trabajar cada parte en una sesión y día diferente, de esta manera podremos trabajar con mayor intensidad cada una de ellas.</string>
+    <string name="PRINCIPIO_DE_BOMBEO">Este principio lo utilizamos todos, se trata de llevar sangre a una zona muscular o músculo en concreto, por ejemplo al pectoral cuando trabajamos varias series de press banca.</string>
+    <string name="PRINCIPIO_DE_SERIES_COMPUESTAS">Se trata de dos ejercicios para un mismo músculo, por ejemplo curl de bíceps con barra de pie, y curl de biceps con mancuernas de pie, el resultado de este tipo de trabajo es una supercongestión muscular.</string>
+    <string name="PRINCIPIO_DE_SUPERSERIES">Es un principio muy conocido se trata de trabajar a la vez dos músculos o zonas musculares antagónicas, por ejemplo bíceps y tríceps con los ejercicios de curl de bíceps y extensión de tríceps con polea alta, debemos realizar los ejercicios sin descanso entre ambos. Se trata de un excelente mecanismo de bombeo, pero también de recuperación.</string>
+    <string name="PRINCIPIO_DE_TRISERIES">Cuando hacemos en sucesión tres ejercicios para el mismo grupo muscular estamos haciendo una triserie. Esta técnica nos permite bombear los músculos muy deprisa. Como los trabajamos desde tres ángulos distintos, se trata de una técnica de forma. Las triseries enfatizan los factores de recuperación local del músculo y son excelentes para incrementar la vascularidad.</string>
+    <string name="PRINCIPIO_DE_PAUSA_DESCANSO">Se trata de una serie con una carga máxima con descansos entre repeticiones, por ejemplo: 2 ó 3 repeticiones, descanso 40 a 45 segundos, otras 2 ó 3; descanso de 50 a 60 segundos, hacemos 2 repeticiones; volvemos a descansar de 70 a 90 segundos, y sacamos 1 ó 2 repeticiones. Este principio podemos utilizarlo para fuerza y potencia.</string>
+    <string name="PRINCIPIO_DE_ENTRENAMIENTO_INSTINTIVO">Es principio es la recopilación de todos los anteriores una vez adaptados a nuestra genética y a nuestras sensaciones. Nos dice que debemos ser capaces de generar nuestras propias rutinas, elegir los ejercicios que mejor se adaptan a nosotros, en resumen, cuando llevemos un tiempo en este deporte debemos conocernos bien, y adaptar el entrenamiento a nosotros y no al revés.</string>
+    <string name="PRINCIPIO_DE_SOBRECARGA">Es el principio fundamental del método Wieider. Para mejorar cualquiera de los componentes de la fuerza debemos forzar a nuestros músculos a trabajar más duro cada vez. No importa que busquemos volumen, potencia o resistencia. Esa sobrecarga debe ser progresiva. Normalmente se basará en ir aumentado progresivamente la carga utilizada en cada ejercicio, aunque también se refiera al aumento de repeticiones, series, repeticiones, sesiones, etc.</string>
+    <string name="principio_de_aislamiento">Cada uno de nuestros músculos tiene una función dentro del sistema muscular, ya sea como agonista, antagonista o estabilizador de un movimiento, para trabajarlo y estimularlo de manera independiente debemos buscar los ejercicios adecuados para que trabaje lo más separado y aislado posible. </string>
+</resources>

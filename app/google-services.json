@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1090773678582",
+    "firebase_url": "https://dba-fitnessapp.firebaseio.com",
+    "project_id": "dba-fitnessapp",
+    "storage_bucket": "dba-fitnessapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090773678582:android:f93c28ac0a0d5cc9",
+        "android_client_info": {
+          "package_name": "com.tecnologiasmoviles.dbafitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090773678582-ejcubp5dnit3holsrrjpqajc8ihmjj11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tecnologiasmoviles.dbafitnessapp",
+            "certificate_hash": "f29860f6f99958dea725647a0095d3a27dc435a6"
+          }
+        },
+        {
+          "client_id": "1090773678582-l3rfqg1fj7h20npanq4bcogrf9gn7jav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvmc_GsEk4ClMvkclsIQ8HlE4YakSmOo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090773678582-l3rfqg1fj7h20npanq4bcogrf9gn7jav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

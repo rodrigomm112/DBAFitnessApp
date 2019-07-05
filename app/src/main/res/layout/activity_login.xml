@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAnimado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/gradiant_animacion"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1.7"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/tituloblanco" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2.2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_iconomuscle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5.7"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/TextEmailLogin"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_rect"
+            android:drawableLeft="@drawable/icon_persona"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_persona"
+            android:hint="@string/emailReg"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/TextPasswordLogin"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_rect"
+            android:drawableLeft="@drawable/icon_password"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_password"
+            android:hint="@string/passwordReg"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/botonblanco"
+            android:text="@string/sign_inLog"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnregistrologin"
+            android:textAllCaps="false"
+            android:background="@drawable/botonblanco"
+            android:text="@string/registro"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+        <!--
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/botonfacebook"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:text="@string/facebookbtn"
+                android:layout_marginRight="4dp"
+                android:textColor="@color/negro"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:textAllCaps="false"
+                android:textColor="@color/negro"
+                android:background="@drawable/botongoogle"
+                android:text="@string/googlebtn"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+-->
+        <Button
+            android:id="@+id/btninvitado"
+            android:textAllCaps="false"
+            android:background="@drawable/botonblanco"
+            android:text="@string/invitado"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

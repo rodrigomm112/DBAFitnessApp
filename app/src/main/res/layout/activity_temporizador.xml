@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".TemporizadorActivity">
+
+    <LinearLayout
+        android:background="@drawable/gradiant_fondostart"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/textcontador"
+            android:text="00:00:00"
+            android:textColor="@color/negro"
+            android:textSize="88sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/gradiant_fondostart"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_marginTop="16dp"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+        android:id="@+id/btnstartpause"
+        android:textSize="48sp"
+        android:text="Start/Pause"
+        android:textAllCaps="false"
+        android:textColor="@color/negro"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp" />
+
+        <Button
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:text="Reset"
+            android:textSize="48sp"
+            android:textColor="@color/negro"
+            android:id="@+id/btnreset"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:layout_height="0dp"
+            tools:visibility="visible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
